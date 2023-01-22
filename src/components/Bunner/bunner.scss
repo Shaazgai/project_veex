@@ -1,0 +1,56 @@
+@import "../../sass/flexCenter";
+.container{  
+    #quant{
+     
+        @include flexCenter (row, space-around, center);
+        align-items: center;
+        margin: 150px 190px 0 190px;
+        height: 27vh;
+        position: absolute;
+        z-index: 9999;
+        width: 75%;
+        padding: 48px 0px 48px 48px;
+        z-index: 9999999;
+        background-color: #231b26;
+        border-radius: 10px 10px 10px 10px;
+        .quant__content{
+            padding-right: 60px;
+                border-style: solid;
+                border-width: 0px 1px 0px 0px;
+                transition: background 0.3s,
+                border 0.3s,
+                border-radius 0.3s,
+                box-shadow 0.3s;
+                border-color: #B2B2B233;
+                
+           h5{
+           color: #B2B2B2;
+           font-size: 21px;
+           line-height:35px;
+           letter-spacing: normal;
+           font-family: Barlow;
+           
+           }
+            .quant__contents{
+            
+                span{
+                    color: #fff;
+                    font-size: 50px;
+                    line-height: 55px;
+                    font-weight: 600;
+                    font-family: Barlow Semi Condensed;
+                }
+                sup{
+                    color: #EC2F4B;
+                    font-size: 37px;
+                    font-weight: 600;
+                    line-height: 45px;
+                    margin-left: 8px;
+                }
+            }
+        }
+        .quants{
+            border: none;
+        }
+    }
+}

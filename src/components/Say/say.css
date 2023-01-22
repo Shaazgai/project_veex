@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Barlow:wght@400;600&family=Cormorant:ital,wght@0,500;1,500&family=Lato:ital,wght@0,400;1,300;1,400&family=Monoton&family=Mulish:ital@0;1&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap");
+.container #say {
+  padding: 0 190px;
+  background-color: #151017;
+  height: 90vh;
+  padding-top: 140px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #b2b2b233;
+}
+
+.container #say .benefit__text {
+  text-align: center;
+}
+
+.container #say .benefit__text h6 {
+  font-size: 17.6px;
+  line-height: 26px;
+  letter-spacing: 1.7px;
+  font-weight: 600;
+  color: #ec2f4b;
+  font-family: Barlow Semi Condensed;
+}
+
+.container #say .benefit__text h2 {
+  font-size: 50.5px;
+  line-height: 56px;
+  letter-spacing: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: Barlow Semi Condensed;
+}
+
+.container #say .say__contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: start;
+  padding: 100px 0 80px 0;
+}
+
+.container #say .say__contents .say__content {
+  width: 100%;
+}
+
+.container #say .say__contents .say__content .say__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: start;
+  padding-bottom: 20px;
+}
+
+.container #say .say__contents .say__content .say__top .best {
+  color: #ffffff;
+  font-size: 20.8px;
+  line-height: 27px;
+  letter-spacing: normal;
+  font-weight: 500;
+  font-family: Barlow Semi Condensed;
+  margin-right: 20px;
+}
+
+.container #say .say__contents .say__content .say__top .star {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-family: Segoe UI Symbol;
+  color: #f0ad4e;
+}
+
+.container #say .say__contents .say__content p {
+  width: 450px;
+  font-size: 17.6px;
+  line-height: 26.4px;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-family: Barlow;
+  color: #b2b2b2;
+  margin-bottom: 20px;
+}
+
+.container #say .say__contents .say__content .say__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container #say .say__contents .say__content .say__bottom .say__img {
+  padding-right: 15px;
+}
+
+.container #say .say__contents .say__content .say__bottom .say__img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+}
+
+.container #say .say__contents .say__content .say__bottom .say__text h2 {
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 1.7px;
+  font-weight: 600;
+  font-family: Barlow Semi Condensed;
+  color: #ffffff;
+}
+
+.container #say .say__contents .say__content .say__bottom .say__text p {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: Barlow;
+  letter-spacing: normal;
+  color: #b2b2b2;
+}
+
+.container #say .say__contents .say__right {
+  padding: 0% 0% 0% 8%;
+}
+/*# sourceMappingURL=say.css.map */

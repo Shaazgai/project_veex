@@ -1,0 +1,160 @@
+@import '../../sass/flexCenter';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Barlow:wght@400;600&family=Cormorant:ital,wght@0,500;1,500&family=Lato:ital,wght@0,400;1,300;1,400&family=Monoton&family=Mulish:ital@0;1&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.container {
+  .Benefit {
+    // background-color:yellow;
+    background-color: #151017;
+    border: 1px solid red;
+    border: none;
+    height: 100vh;
+    position: relative;
+    margin-top: 1100px;
+    padding: 0 190px 0 190px;
+    // @include flexCenter(row, center, center);
+    .benefit__text {
+      text-align: center;
+      h6 {
+        font-size: 17.6px;
+        line-height: 26px;
+        letter-spacing: 1.7px;
+        font-weight: 600;
+        color: #ec2f4b;
+        font-family: Barlow Semi Condensed;
+      }
+      h2 {
+        font-size: 50.5px;
+        line-height: 56px;
+        letter-spacing: normal;
+        font-weight: 600;
+        color: #ffffff;
+        font-family: Barlow Semi Condensed;
+      }
+    }
+    .benefit {
+      margin-top: 135px;
+      @include flexCenter(row, space-between, center);
+      .benefit__img {
+        background-image: url(../../assets/Images/bg-gradient-1.png);
+        background-position: center start;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        img {
+          position: absolute;
+          left: 42%;
+          top: 17.5%;
+          display: inline-block;
+          width: 250px;
+          vertical-align: middle;
+        }
+      }
+      .benefit__content {
+        height: 70vh;
+        margin-top: -15px;
+        .benefit__left {
+          @include flexCenter(row, space-around, start);
+          padding: 6% 6% 6% 6%;
+          border-radius: 8px 8px 8px 8px;
+          border: 1px solid #231b26;
+          background-color: #231b26;
+          margin: 0% 16% 10% 0%;
+          align-content: center;
+          .left__content {
+            font-size: 24px;
+            padding: 18px;
+            font-style: normal;
+            color: #ffffff;
+            border: 1px solid #403a42;
+            border-radius: 50%;
+            background-color: #b2b2b233;
+            margin: 10px auto;
+            margin-right: 15px;
+          }
+
+          .left__contents {
+            background-color: #231b26;
+            h5 {
+              text-align: left;
+              color: #ffffff;
+              font-family: Barlow Semi Condensed;
+              font-size: 21px;
+              line-height: 39px;
+              font-weight: 500;
+              letter-spacing: normal;
+              margin-left: 9px;
+            }
+
+            p {
+              width: 90%;
+              margin: 0 auto;
+              color: #b2b2b2;
+              font-size: 17px;
+              line-height: 25px;
+              letter-spacing: normal;
+              font-weight: 400;
+            }
+          }
+        }
+        .benefit__left:hover {
+          box-shadow: 5px -0 0px -0 #009fff inset;
+          -webkit-box-shadow: 5px -0 0px -0 #009fff inset;
+          -moz-box-shadow: 5px -0 0px -0 #009fff inset;
+        }
+
+        .benefit__right {
+          @include flexCenter(row, start, start);
+          padding: 6% 6% 6% 6%;
+          border-radius: 8px 8px 8px 8px;
+          border: 1px solid #231b26;
+          background-color: #231b26;
+          margin: 0% 0% 10% 16%;
+          align-content: center;
+          .right__content {
+            background-color: #b2b2b233;
+            margin: 10px auto;
+            font-size: 24px;
+            padding: 18px;
+            margin-right: 15px;
+            font-style: normal;
+            color: #ffffff;
+            border: 1px solid #403a42;
+            border-radius: 50%;
+          }
+
+          .right__contents {
+            background-color: #231b26;
+            h5 {
+              text-align: left;
+              color: #ffffff;
+              font-family: Barlow Semi Condensed;
+              font-size: 21px;
+              line-height: 39px;
+              font-weight: 500;
+              letter-spacing: normal;
+              margin-left: 9px;
+            }
+            p {
+              width: 90%;
+              margin: 0 auto;
+              color: #b2b2b2;
+              font-size: 17px;
+              line-height: 25px;
+              letter-spacing: normal;
+              font-weight: 400;
+            }
+          }
+        }
+        .benefit__right:hover {
+          // border-right-style: inset solid;
+          // border-width: 0px 4px 0px 0px;
+          // border-color: #009fff;
+          // box-shadow: inset 0 0 0 4px #009fff;
+          box-shadow: -5px -0 0px -0 #009fff inset;
+          -webkit-box-shadow: -5px -0 0px -0 #009fff inset;
+          -moz-box-shadow: -5px -0 0px -0 #009fff inset;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Barlow:wght@400;600&family=Cormorant:ital,wght@0,500;1,500&family=Lato:ital,wght@0,400;1,300;1,400&family=Monoton&family=Mulish:ital@0;1&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap");
+.container #vap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: start;
+  padding: 0 190px;
+  height: 40vh;
+  width: 100%;
+  background-color: #151017;
+  padding: 48px 190px 36px 190px;
+}
+
+.container #vap .vap__img {
+  width: 25%;
+}
+
+.container #vap .vap__img img {
+  width: 68%;
+}
+
+.container #vap .vap__img p {
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: normal;
+  font-weight: 400;
+  max-width: 80%;
+  color: #b2b2b2;
+  margin-bottom: 0.9rem;
+  padding-top: 20px;
+}
+
+.container #vap .vap__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: start;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.container #vap .vap__text h5 {
+  font-size: 20px;
+  font-family: Barlow Semi Condensed;
+  color: #ffffff;
+  line-height: 27px;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+
+.container #vap .vap__text h3 {
+  font-size: 17px;
+  color: #b2b2b2;
+  font-family: Barlow;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 25px;
+  padding-left: 7px;
+}
+
+.container #vap .vap__text h3:hover {
+  color: white;
+}
+
+.container #vap .vap__text span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: start;
+}
+
+.container #vap .vap__text span a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #b2b2b2;
+  font-family: Barlow;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 25px;
+}
+
+.container #vap .vap__text span a .big__icon {
+  color: #ffffff;
+}
+
+.container #vap .vap__text span a span {
+  color: white;
+}
+
+.container #vap .vap__text span a:hover {
+  color: white;
+}
+
+.container footer {
+  text-align: center;
+}
+
+.container footer h5 {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #b2b2b233;
+  padding: 20px 190px 0 190px;
+  height: 9vh;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+  font-weight: 400;
+  font-family: Barlow;
+  width: 100%;
+  background-color: #151017;
+  color: #b2b2b2;
+}
+/*# sourceMappingURL=useful.css.map */
